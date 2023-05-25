@@ -35,6 +35,10 @@
         <button type="submit">Sign Up</button>
         <button type="reset">Reset</button>
       </div>
+      <div class="back-button">
+		<!-- Button to go back to the login page -->
+		<a href="loginPage.php" class="back-button">Back to Login</a>
+      </div>
     </form>
   </div>
 </body>
