@@ -10,6 +10,23 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Sign-Up Page</title>
     <link rel="stylesheet" href="StyleLogandSign.css">
+	<style>
+	.button {
+    display: inline-block;
+    padding: 10px 10px;
+    background-color: white;
+    color: lightslategray;
+    text-decoration: none;
+    border: none;
+    border-radius: 4px;
+    font-size: 16px;
+    cursor: pointer;
+  }
+  
+  .button:hover {
+    background-color: #ddd;
+  }
+  	</style>
 </head>
 <body>
 <div class="container">
@@ -34,11 +51,11 @@
       <div class="form-group">
         <button type="submit">Sign Up</button>
         <button type="reset">Reset</button>
-      </div>
-      <div class="back-button">
-	<!-- Button to go back to the login page -->
-	<a href="loginPage.php" class="back-button">Back to Login</a>
-      </div>
+	 </div>
+	 <div class="form-group">
+		<!-- Button to go back to the login page -->
+		<a href="loginPage.php" class="button">Back to Login</a>
+	 </div>
     </form>
   </div>
 </body>
