@@ -53,8 +53,8 @@
         <button type="reset">Reset</button>
 	 </div>
 	 <div class="form-group">
-		<!-- Button to go back to the login page -->
-		<a href="loginPage.php" class="button">Back to Login</a>
+	 <!-- Button to go back to the login page -->
+	 <a href="loginPage.php" class="button">Back to Login</a>
 	 </div>
     </form>
   </div>
