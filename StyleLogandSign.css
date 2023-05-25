@@ -64,31 +64,3 @@ body {
     background-color: #d32f2f;
   }
   
-  /* Adding the loading animation */
-  .loader{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 100vh;
-  }
-    .scanner span {
-    color: transparent;
-    font-size: 100px;
-    position: relative;
-    overflow: hidden;
-    font-family: serif;
-  }
-  
-  .scanner span::before {
-    content: "Loading...";
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 0;
-    height: 100%;
-    border-right: 4px solid #17FEFF;
-    overflow: hidden;
-    color: #17FEFF;
-    animation: load 4s linear infinite;
-  }
-  
