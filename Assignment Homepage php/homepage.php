@@ -14,6 +14,7 @@
                 <img src="images/oldman.png" class="logo">
                 <ul>
                     <li> <a style="text-decoration: none" href="services.php" >Login </a></li>
+                    <li> <a style="text-decoration: none" href="services.php" >Sign up </a></li>
                 </ul>
                 <ul>
                     <li> <a  style="text-decoration: none" href="homepage.php" Home >Home</a></li>
@@ -43,3 +44,4 @@
     </div>
 </body>
 </html>
+
