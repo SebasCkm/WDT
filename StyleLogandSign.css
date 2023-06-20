@@ -1,0 +1,85 @@
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh; 
+  background: linear-gradient(#fd8aafb3, #969efcc3);
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.container {
+  background-color: rgba(145, 162, 189, 0.467);
+  width: 400px;
+  margin: 0 auto;
+  padding: 20px 50px; 
+  border-radius: 5px;
+  box-shadow: 9 9 10px rgba(0, 0, 0, 0.1);
+  text-align: center;
+  border-style: dashed;
+  border-color: blueviolet;
+  border-width: 20%; 
+}
+
+h2 {
+  margin-bottom: 20px;
+  color: #333;
+}
+
+.form-group {
+  margin-bottom: 15px;
+  text-align: left;
+}
+
+label {
+  display: block;
+  margin-bottom: 5px;
+  color: #333;
+}
+
+input {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+button {
+  padding: 10px 20px;
+  background-color: rgb(52, 52, 224);
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+/* let the reset button have their own effect */
+button[type="reset"] {
+  margin-left: 10px;
+  background-color: #f44336;
+}
+
+/* when the cursor close to all the button will change the view and color */
+button:hover {
+  background-color: darkblue;
+}
+button[type="reset"]:hover {
+  background-color: #d32f2f;
+}
+
+.button {
+  display: inline-block;
+  padding: 10px 10px;
+  background-color: white;
+  color: lightslategray;
+  text-decoration: none;
+  border: none;
+  border-radius: 4px;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+.button:hover {
+  background-color: #ddd;
+}
+
