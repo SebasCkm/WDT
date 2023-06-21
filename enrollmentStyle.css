@@ -1,0 +1,122 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 130vh;
+    background-image: url('image/bgforenroll.jpg');
+    background-size: cover;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: large;
+  }
+  
+.container {
+    background-color: rgba(63, 134, 227, 0.996);
+    width: 400px;
+    margin: 0 auto;
+    padding: 20px 50px; 
+    border-radius: 5px;
+    box-shadow: 9 9 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    border-style: dashed;
+    border-color: blueviolet;
+    border-width: 20%; 
+}
+
+h2 {
+    margin-bottom: 20px;
+    color: #242222;
+}
+
+.form-group {
+    color: #020000;
+    margin-bottom: 15px;
+    text-align: left;
+}
+
+label {
+    display: block;
+    margin-bottom: 5px;
+    color: #333;
+}
+
+#FName #LName #medicalR #age{
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+button {
+    padding: 10px 20px;
+    background-color: rgb(52, 52, 224);
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover{
+    background-color: rgb(63, 142, 211);
+}
+
+#roomPic{
+    width: 200px; 
+    height: 100px;
+}
+
+label {
+    display: block;
+    margin-bottom: 5px;
+    color: #000000;
+}
+
+.button {
+    display: inline-block;
+    padding: 10px 10px;
+    background-color: rgb(161, 181, 36);
+    color: rgb(8, 0, 0);
+    text-decoration: none;
+    border: none;
+    border-radius: 4px;
+    font-size: 16px;
+    cursor: pointer;
+}
+  
+.button:hover {
+    background-color: rgb(135, 145, 28);
+}
+
+.btnhome{
+    margin-left: 10px;
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: rgb(239, 71, 71);
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+    border: none;
+    border-radius: 4px;
+    font-size: 16px;
+    cursor: pointer;
+}
+  
+.btnhome:hover {
+    background-color: rgb(248, 117, 117);
+}
+
+input {
+    width: 90%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+
+.logo{
+  width: 80px;
+  cursor: pointer;
+}
+
+.font-size {
+    font-size: 15px;
+  }
