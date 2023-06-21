@@ -65,6 +65,7 @@
       <div>
         <br>
         <a href="SignupPage.php" class="button">Signup</a>
+        <a href=" home page " class="btnhome">back to home</a>
       </div>
       </form>
   </div>
