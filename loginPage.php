@@ -28,7 +28,7 @@
     if (isset($_POST["btnlog"])) {
         if ($email === "admin123@gmail.com" && $password === "admin123") {
             // will go to admin page if successful login
-            header("Location: YABportfolio.html"); # admin page
+            header("Location: \\admin page name\\"); # admin page
         }
             // just to check is it occur any error
         // else {
