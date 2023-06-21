@@ -51,6 +51,10 @@
   <!-- to enter the login information -->
   <div class="container">
       <h1>Login</h1>
+      <!-- logo -->
+      <div>
+        <img src="image/oldman.jpg" alt="logo" class="logo">
+      </div>
       <form name="login_page" action="" method="POST">
         <div class="form-group">
             <label for="email">Email: </label>
