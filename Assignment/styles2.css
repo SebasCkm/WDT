@@ -245,11 +245,11 @@ h5{
 }
 .bnt:hover{
     background-color: transparent;
-    color: black;
+    color: white;
 }
 .bnt1{
     background-color: transparent;
-    color: black;
+    color: white;
 }
 .bnt1:hover{
     color: white;
@@ -257,7 +257,7 @@ h5{
 }
 .bnt2{
     background-color: transparent;
-    color: black;
+    color: white;
 }
 .bnt2:hover{
     color: white;
@@ -269,6 +269,6 @@ h5{
     margin-left: 90px;
 }
 .bnt3:hover{
-    color: black;
-    background-color: maroon;
+    color: white;
+    background-color: gray;
 }
