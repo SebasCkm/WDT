@@ -4,13 +4,25 @@
     $user = 'userdb';
     $password = '';
     $database = 'wdtassgm';
-
-    // $connection = mysqli_connect('localhost', 'root','','wdt2111');
     $connection = mysqli_connect($host, $user, $password, $database);
 
-    //check connection between database
-    if (!$connection) {
-        die('Connection failed: ' . mysqli_connect_error());
+    //step 2 - retrieve all user input from your form
+    if (isset($_POST['btnsign'])) {
+        $firstname = $_POST['FName'];
+        $lastname = $_POST['LName'];
+        $email = $_POST['email'];
+        $phone_number = $_POST['phone'];
+        $password = $_POST['password'];
+        $confirm_password = $_POST['CONpassword'];
+        //step 3 - query
+        $query = "INSERT INTO `userdb_assignment`(`First_name`, `Last_name`, `Email`, `Phone_number`, `Password`,Confirm_password) VALUES ('$firstname','$lastname','$email','$phone_number','$password','$confirm_password')";
+        //step 4 - execute query
+        if (mysqli_query($connection, $query)) {
+            // go back to login pages if successful
+            header("Location: loginPage.php");
+        } else {
+            echo "Sorry, please try again";
+        }
     }
     
 ?>
@@ -47,7 +59,7 @@
     <!-- phone number -->
     <div class="form-group">
         <label for="phone">Phone Number: </label>
-        <input type="tel" id="Phone" name="phone" pattern="[0-9]{10}" placeholder="0123456789" required>
+        <input type="tel" id="Phone" name="phone" placeholder="0123456789" required>
     </div>
     <!-- password -->
     <div class="form-group">
@@ -56,12 +68,12 @@
     </div>
     <!-- enter again the password to confirm -->
     <div class="form-group">
-        <label for="password">Confirm Password: </label>
-        <input type="password" id="password" name="password" required>
+        <label for="CONpassword">Confirm Password: </label>
+        <input type="password" id="CONpassword" name="CONpassword" required>
     </div>
     <!-- Sign up button -->
     <div class="form-group">
-        <button type="submit">Sign Up</button>
+        <button type="submit" name="btnsign">Sign Up</button>
         <button type="reset">Reset</button>
 	</div>
 	<!-- back to login page -->
@@ -69,6 +81,7 @@
 	    <a href="loginPage.php" class="button">Back to Login</a>
 	</div>
     </form>
+    <script src="passwordVallidation.js"></script>
   </div>
 </body>
 </html>
