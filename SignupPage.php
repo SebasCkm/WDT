@@ -39,6 +39,10 @@
 <body>
 <div class="container">
     <h2>Sign Up</h2>
+    <!-- logo -->
+    <div>
+        <img src="image/oldman.jpg" alt="logo" class="logo">
+    </div>
     <!-- sign up -->
     <form action="" method="POST">
     <!-- First Name -->
