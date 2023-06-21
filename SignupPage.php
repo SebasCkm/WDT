@@ -79,6 +79,7 @@
 	<!-- back to login page -->
 	<div class="form-group">
 	    <a href="loginPage.php" class="button">Back to Login</a>
+            <a href="YABportfolio.html" class="btnhome">back to home</a>
 	</div>
     </form>
     <script src="passwordVallidation.js"></script>
