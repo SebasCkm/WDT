@@ -1,0 +1,22 @@
+------------------------PLEASE READ----------------------------
+
+This is the assignment product of Group 1 (UDCF 2111)
+Group Member: MOHAMED YASHMU HASSAN (TP067261), YAB TIAN POH (TP067410), SEBASTIAN CHIANG KIT MENG (TP066737)
+
+Our group has chosen the PROBLEM SCENARIO 2 (TWO) and have created a web application of an ONLINE SHELTER MANAGEMENT SYSTEM.
+
+---------------------------TO START WEB APPLICATION-------------------------------------
+
+To Start our web application, please go to the "Group 1 WDT Product" folder and locate the "homepage.php" file. From there you can access our web application.
+
+All images are in an images folder. Our group tried to separate the .css files into its own folder but to no avail. Therefor please excuse the messiness of our main folder.
+
+------------------------IMPORTANT-------------------------------
+There is currently no data for a registered customer in the database, there is also no data for enrolled customer. Therefor we encourage the tester/lecturer to register as a customer using the sign up page which can be access using the web application. There is a difference in non registered customer pages and registered customer pages, therefor once again we encourage the registration as a customer.
+
+There is data for staff and activities in the database. To get a view of the database through the web application. The tester/lecturer can login as an admin through the login page. 
+
+THE PASSWORD FOR ADMIN LOGIN IS EMAIL:admin123@gmail.com PASSWORD:admin123.
+
+
+Please IMPORT the ASSIGNMENT.SQL database into your phpmyadmin.

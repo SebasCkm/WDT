@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>YAB TIAN POH</title>
+  <link rel="stylesheet" href="YABportstyle.css">
+  <nav align="right">
+    <ul>
+        <button class="btnhome"> <a href="Rhomepage.php">Home</a></button>
+    </ul>
+  </nav>
+</head>
+<body>
+  <div class="welcome-intro" id="welcome-intro">
+    <marquee scrollamount="11" direction="left">
+      <h1 >
+        Hi welcome to my Portfolio Nice to meet you
+      </h1>
+    </marquee>
+  </div>
+  
+  <div class="about-me" align="center">
+    <h3>About Me</h3>
+    <p>Hi there! My name is Yab Tian Poh and my nickname is Christopher. Currently I am studying Diploma in software engineering in Asia Pacific University.</p>
+      <p>I am passionate in Cyber Security, and i am also planning to study Cyber Security in my degree career.</p>
+  </div>
+    
+  <div class="favfood" align="center">
+    <h2>My Favorite Food</h2>
+    <table class="favtable" border="5px">
+      <tr>
+        <th bgcolor="yellow">Malaysian Food</th>
+        <th bgcolor="yellow">Western Food</th>
+      </tr>
+      <tr>
+        <th bgcolor="lightyellow">
+          <img src="images/roticanai.jpg" alt="roticanai" width="300" height="300"><br>
+          <b>Roti Canai</b>
+        </th>
+        
+        <th bgcolor="lightyellow">
+          <img src="images/pasta.jpg" alt="pasta" width="300" height="300"><br>
+          <b>Aglio Olio</b>
+        </th>
+      </tr>
+        <th bgcolor="lightyellow">
+          <img src="images/nasilemak.jpg" alt="Nasi Lemak" width="300" height="300"><br>
+          <b>Nasi Lemak</b>
+        </th>
+        <th bgcolor="lightyellow">
+          <img src="images/wellington.jpg" alt="Wellington" width="300" height="300"><br>
+          <b>Wellington</b>
+        </th>
+      <tr>
+    </table>
+    
+    <br>
+
+  <div class="personal_information" align="center">
+    <table class="itable" border="3px">
+      <tr>
+        <th bgcolor="grey">Contact Number:</th>
+        <td bgcolor="grey">0123456789</td>
+      </tr>      
+      <tr>
+        <th bgcolor="grey">Location:</th>
+        <td bgcolor="grey">Kuala Lumpur</td>
+      </tr>      
+      <tr>
+        <th bgcolor="grey">University</th>
+        <td bgcolor="grey">Asia Pacific University(APU)</td>
+      </tr>      
+    </table>
+  </div>  
+</body>
+</html>
